@@ -14,12 +14,14 @@ ul b{list-style-type: none; height:10vh;
 ul{list-style-type: none;
     height: fit-content ;
     }
-li a{display: inline-block;
-    padding: 7px 30px;
-    text-decoration: none;
-    color: black;
-    font-size: x-large;
-    float: right;}
+
+.a{display: inline-block;
+  padding: 7px 30px;
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  float: right;}
+li a{}
 
 /*Home-Education Section*/
 .edu{
@@ -40,6 +42,8 @@ list-style-type: disc; font-size: larger; margin-left: 15vh;}
 	flex-wrap: wrap;
 list-style-type: disc; margin-left: 15vh;}
 ul a{list-style-type: disc;}
+
+.d{font-size: large;font-weight: bold;}
 
 footer{text-align: center;
     font-family: "Itim";
